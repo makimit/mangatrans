@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mangatrans"
+version = "1.0.0"
+description = "Lightweight, cloud-powered manga & comic scanlation engine (Inside-Out Inpainting, Knuth-Plass Typesetting, Gemini API)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Sayan Das" }]
+dependencies = [
+    "pillow>=10.0.0",
+    "opencv-python>=4.8.0",
+    "numpy>=1.24.0",
+    "requests>=2.31.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Sayan-Das411/mangatrans"
+Repository = "https://github.com/Sayan-Das411/mangatrans.git"
+"Bug Tracker" = "https://github.com/Sayan-Das411/mangatrans/issues"
+
+[project.scripts]
+mangatrans = "mangatrans_core.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mangatrans_core*"]

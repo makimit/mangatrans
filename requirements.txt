@@ -1,0 +1,6 @@
+# MangaTrans Python Dependencies
+# Lightweight: Zero local heavy models, zero PyTorch, runs on any CPU
+pillow>=10.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+requests>=2.31.0

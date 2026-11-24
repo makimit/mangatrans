@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Scratch & working directories
+scratch/
+scratch
+koharu-main/
+*.log
+
+# OS-generated files
+.DS_Store
+.directory
+Thumbs.db
+
+# Comic archives and raw test files
+*.cbz
+*.cbr
+*.partial.*
+
+# Local configuration & credentials
+config.json
+cooldowns.json
+
+# Old versions
+mangatrans.bak
+
+# Original icon image
+mangatrans-original.png

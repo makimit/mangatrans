@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""mangatrans — Next-Generation Multimodal Manga, Manhwa & Comic Scanlation Suite."""
+import os
+import sys
+
+# Ensure package root is always in sys.path even when called via symlink or relative path
+SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
+if SCRIPT_DIR not in sys.path:
+    sys.path.insert(0, SCRIPT_DIR)
+
+from mangatrans_core.cli import main
+
+if __name__ == "__main__":
+    main()
